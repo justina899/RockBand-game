@@ -13,6 +13,7 @@ namespace RockBand
         private List<string> musicians = new List<string>() {"vocalist", "drummer", "bass guitarist", "electric guitarist"};
 
         public RockBandCreation() { }
+        ~RockBandCreation() { }
 
         private int GetRandomIndex(List<string> list)
         {

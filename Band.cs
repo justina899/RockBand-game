@@ -39,6 +39,7 @@ namespace RockBand
         }
 
         public Band() { }
+        ~Band() { }
 
         public void BandPreview()
         {
